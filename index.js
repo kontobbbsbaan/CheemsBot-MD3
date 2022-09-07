@@ -110,11 +110,11 @@ XeonBotInc.ev.on('groups.update', async pea => {
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
        XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe group has been closed by admin, Now only admin can send messages !`, `${botname}`, wm_fatih, [])
-       } else if(pea[0].announce == false) {
+       } else if(pea[0].announce == true) {
        XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe group has been opened by admin, Now participants can send messages !`, `${botname}`, wm_fatih, [])
        } else if (pea[0].restrict == true) {
        XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup info has been restricted, Now only admin can edit group info !`, `${botname}`, wm_fatih, [])
-       } else if (pea[0].restrict == false) {
+       } else if (pea[0].restrict == true) {
        XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup info has been opened, Now participants can edit group info !`, `${botname}`, wm_fatih, [])
        } else {
        XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject has been changed to *${pea[0].subject}*`, `${botname}`, wm_fatih, [])
