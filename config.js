@@ -28,7 +28,7 @@ const chalk = require("chalk")
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = false //auto reading in gc (true to on, false to off)
-global.autoReadAll = true // auto reading in all pchat gc and status (true to on, false to off)
+global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
@@ -43,9 +43,9 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.owner = ['6283845409710'] //ur owner number
 global.ownername = "Kian"
-global.ytname = "" //ur yt chanel name
-global.socialm = "" //ur github or insta name
-global.location = "" //ur location
+global.ytname = "🤠" //ur yt chanel name
+global.socialm = "🙂" //ur github or insta name
+global.location = "🗿" //ur location
 
 //bot bombdy
 global.botname = "𝗠𝗢𝗗𝗭 𝗕𝗢𝗧𝗭" //ur bot name
